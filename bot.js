@@ -30,3 +30,5 @@ bot.on('text', async (msg) => {
 });
 bot.hears('hi', (msg) => msg.reply('Hey there'));
 bot.launch();
+
+console.log('bot has been started...')
